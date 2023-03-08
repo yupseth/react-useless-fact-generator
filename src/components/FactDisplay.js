@@ -1,7 +1,7 @@
-const FactDisplay = () => {
+const FactDisplay = ({ fact }) => {
   return (
     <div className="fact-display">
-      <p> uilu</p>
+      <p> {fact}</p>
     </div>
   );
 };

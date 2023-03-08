@@ -1,10 +1,10 @@
 import Header from "./Header";
 import FactDisplay from "./FactDisplay";
-const Card = () => {
+const Card = ({ fact }) => {
   return (
     <div className="card">
       <Header></Header>
-      <FactDisplay></FactDisplay>
+      <FactDisplay fact={fact}></FactDisplay>
     </div>
   );
 };

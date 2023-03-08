@@ -11,13 +11,13 @@ body {
 }
 
 body {
-  background-color: black;
   font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 
 header {
-  background-color: bisque;
-  height: 20%;
+  background-color: transparent;
+  height: 30%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -31,7 +31,12 @@ header {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background-color: black;
+  background: linear-gradient(
+    90deg,
+    rgb(14 15 20),
+    rgb(41 45 63) 57%,
+    rgb(14 15 20) 100%
+  );
   justify-content: center;
   align-items: center;
 }
@@ -42,32 +47,41 @@ header {
   align-items: center;
   justify-content: center;
   border-radius: 7px;
-  height: 60vh;
-  width: 60vw;
-  background-color: orangered;
+  height: 50vh;
+  width: 50vw;
+  background-color: transparent;
+  border: 1px solid white;
   padding: 20px;
+  opacity: 80%;
 }
 
 .fact-display {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: gray;
+  background-color: transparent;
   height: 80%;
   width: 100%;
+  border-top: solid white 1px;
+}
+
+.fact-display > p {
+  text-align: center;
 }
 
 .btn {
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 10px;
+  color: #fff;
+  background-color: transparent;
   border-radius: 20px;
   user-select: none;
   cursor: pointer;
-  border: none;
+  border: solid 1px white;
 }
 
 .btn:hover {
-  background-color: aqua;
+  box-shadow: 0 0 3px #fff;
 }
 
 footer {
@@ -75,10 +89,10 @@ footer {
   color: #fff;
   opacity: 70%;
   font-size: 0.7rem;
-  /* background-color: aqua; */
   height: 30px;
   width: 100%;
   text-align: center;
   left: 0;
   bottom: 0;
+  padding-bottom: 5px;
 }
