@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: bisque;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  height: 60vh;
+  width: 60vw;
+  background-color: orangered;
+  padding: 20px;
+}
+
+.fact-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  height: 80%;
+  width: 100%;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  background-color: aqua;
+}
+
+footer {
+  position: fixed;
+  color: #fff;
+  opacity: 70%;
+  font-size: 0.7rem;
+  /* background-color: aqua; */
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+}
