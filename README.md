@@ -5,3 +5,4 @@ This is a React single page application that displays random useless facts from 
 This app initially displays a random fact and then dynamically generates another one once you click the button.
 
 ## Screenshot
+<img src="demo.png">
