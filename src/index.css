@@ -78,6 +78,7 @@ header {
   user-select: none;
   cursor: pointer;
   border: solid 1px white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .btn:hover {

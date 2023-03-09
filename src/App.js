@@ -16,16 +16,11 @@ function App() {
       });
   });
 
-  let fact;
-
   const fetchFact = () => {
     fetch("https://uselessfacts.jsph.pl/api/v2/facts/random?language=en")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
-        fact = data.text;
-        console.log(fact);
-        setDisplayFact(fact);
+        setDisplayFact(data.text);
       });
   };
 
