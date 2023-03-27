@@ -2,7 +2,7 @@
 
 💻 → [Try it here!](https://uselessfacts.netlify.app/)
 
-This is a React single page application that displays random useless facts from [usless facts](https://uselessfacts.jsph.pl/) API.
+This is a React single page application that displays random useless facts from [useless facts](https://uselessfacts.jsph.pl/) API.
 
 ## About
 
